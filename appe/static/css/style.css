@@ -142,6 +142,7 @@ body{
   padding: 0;
   list-style: none;
   overflow: hidden;
+  text-align: center;
 }
 
 .header li a {
