@@ -56,7 +56,7 @@ urlpatterns = [
     path('addnewaddress/', TemplateView.as_view(template_name="addnew_Address.html")),
     path('manageaddress/', TemplateView.as_view(template_name="manage_Address.html")),
     path('updateaddress/', TemplateView.as_view(template_name="update_Address.html")),
-    path('changepwd/', TemplateView.as_view(template_name="changepswd.html")),
+    path('changepwd/', TemplateView.as_view(template_name="changepassword.html")),
 
 
     path('clogout/',views.clogout),
