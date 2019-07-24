@@ -1222,8 +1222,8 @@ h3.tittle1 {
     color: #fff;
 }
 .footer-w3l {
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-    padding: 5em 0;
+    background-image: url(../images/header.jpg);
+    padding: 1em 0;
 }
 .footer-grid h4 {
     font-size: 2em;
@@ -1268,12 +1268,11 @@ h3.tittle1 {
 .copy-section{
 	padding:2em 0;
 	text-align:center;
-    background: #0A0A0A;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    background: #eee;
 }
 .copy-section p {
 	font-size: 0.9em;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 }
 .copy-left {
@@ -1285,9 +1284,10 @@ h3.tittle1 {
 }
 .copy-section  a {
 	font-size: 1em;
-	color:#fff;
+	color:black;
 	font-weight: 400;
 	text-transform: capitalize;
+	text-decoration: underline;
 }
 .copy-section a:hover {
 	color: #fff;
@@ -3838,7 +3838,7 @@ h3.tittle1, h3.tittle {
 }
 
 .select:after {
-  content: "ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Ãƒâ€šÃ‚Â¼";
+  content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼";
   padding: 12px 8px;
   position: absolute;
   right: 10px;
